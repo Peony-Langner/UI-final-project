@@ -56,7 +56,6 @@ $xxl: 1400px;
 .p-font {
   font-family: montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-shadow: 0.5px 0.5px 2px $secondary;
 }
 
 .btn-font {
@@ -95,7 +94,6 @@ $xxl: 1400px;
 .bg-gradient-3 {
   background: $gradient-3;
 }
-
 // ? padding class end
 
 // ? header start
@@ -127,8 +125,6 @@ header {
 
 // ? main start
 
-// first section start
-
 .section-1 {
   .bg-img-main {
     background-image: $gradient-3, url("../images/green-leaves.jpg");
@@ -144,13 +140,18 @@ header {
 
   @media screen and (min-width: $md) {
     .pb-container-md {
-      padding-bottom: $p-container-lg;
+      padding-bottom: $p-container-md;
     }
+  }
+
+  .p-font,
+  .h-font {
+    text-shadow: 1px 1px 1px $secondary;
   }
 }
 
 .section-2 {
-  @media screen and (min-width: $lg) {
+  @media screen and (min-width: $xl) {
     .border-md {
       border-left: 8px solid $primary;
       padding: 0 0 0 2rem;
@@ -192,8 +193,23 @@ header {
     }
   }
 }
-// first section end
 
-// ? main start
+.section-5 {
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .house-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .card {
+    border-bottom: 0.25rem solid $light;
+  }
+}
+
+// ? main end
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
