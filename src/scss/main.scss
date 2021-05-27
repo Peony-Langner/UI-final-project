@@ -11,6 +11,7 @@ $hover-background: #083a4c !default;
 $gradient-1: linear-gradient(to bottom, $secondary, $primary);
 $gradient-2: linear-gradient(to bottom, transparent, $primary);
 $gradient-3: linear-gradient(to bottom, $primary, transparent);
+$gradient-4: linear-gradient(to bottom, $primary, $secondary);
 
 $p-container-sm: 3.125rem;
 $p-container-md: 6.25rem;
@@ -71,6 +72,10 @@ $xxl: 1400px;
   padding-top: $p-container-sm;
 }
 
+.pb-container-sm {
+  padding-bottom: $p-container-sm;
+}
+
 .pt-container-md {
   padding-top: $p-container-md;
 }
@@ -93,6 +98,10 @@ $xxl: 1400px;
 
 .bg-gradient-3 {
   background: $gradient-3;
+}
+
+.bg-gradient-4 {
+  background: $gradient-4;
 }
 // ? padding class end
 
@@ -211,5 +220,16 @@ header {
 }
 
 // ? main end
+
+// ? footer start
+
+footer {
+  .social-icon {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+// ? footer end
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

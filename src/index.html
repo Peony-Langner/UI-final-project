@@ -40,10 +40,19 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-light p-font p-3" href="#">Gallery</a>
+                  <a class="nav-link link-light p-font p-3" href="service"
+                    >Service</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-light p-font p-3" href="#">Contact</a>
+                  <a class="nav-link link-light p-font p-3" href="gallery"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light p-font p-3" href="contact"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -62,7 +71,7 @@
       >
         <h1 class="h-font text-uppercase headline">Welcome</h1>
         <p class="p-font lead mt-3">
-          I´m glad you are here. Come and take a look.
+          I am glad you are here. Come and take a look.
         </p>
         <button
           class="bg-primary btn-font btn-outline-primary bg-hover mt-4"
@@ -131,7 +140,7 @@
       <!-- my little paradise end -->
 
       <!-- Fotoshootings and blue umbrella section start -->
-      <section class="section-3 bg-light pb-container-lg">
+      <section class="section-3 bg-light pb-container-lg" id="service">
         <div class="container px-0 shadow-lg">
           <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
             <div class="col-lg-6">
@@ -186,8 +195,11 @@
       <!-- Fotoshootings and blue umbrella section end -->
       <!-- ? service/section-2 and 3 end -->
 
-      <!-- ? Gallery/section-4 start -->
-      <section class="section-4 pt-container-lg pb-container-lg bg-gradient-1">
+      <!-- ? gallery/section-4 start -->
+      <section
+        class="section-4 pt-container-lg pb-container-lg bg-gradient-1"
+        id="gallery"
+      >
         <div class="container">
           <!-- Gallery -->
           <div class="row g-0 h-100">
@@ -277,11 +289,15 @@
           <!-- Gallery -->
         </div>
       </section>
-      <!-- ? Gallery/section-4 end -->
+      <!-- ? gallery/section-4 end -->
 
       <!-- ? contact/section-5 start -->
-      <section class="section-5">
-        <div class="bg-primary">
+      <section class="section-5 text-center text-light" id="contact">
+        <div class="bg-gradient-4">
+          <div class="pb-container-md">
+            <h1 class="h-font text-uppercase headline">Contact me</h1>
+            <p class="p-font lead mt-3">I can not wait to work with you</p>
+          </div>
           <div
             class="
               container
@@ -292,7 +308,7 @@
             "
           >
             <div class="col">
-              <div class="card h-100 text-center">
+              <div class="card h-100 text-center bg-light">
                 <div class="card-body">
                   <img
                     src="./images/icons/house.png"
@@ -300,10 +316,10 @@
                     alt="House icon"
                     title="House icon"
                   />
-                  <h6 class="card-title h-font text-uppercase text-light">
+                  <h6 class="card-title h-font text-uppercase text-black-50">
                     Adress
                   </h6>
-                  <hr class="my-4 mx-auto w-25" />
+                  <hr class="my-4 mx-auto w-25 text-black-50" />
 
                   <p class="card-text p-font text-black-50 pb-3">
                     4923 Market Street, Orlando FL
@@ -312,7 +328,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 text-center">
+              <div class="card h-100 text-center bg-light">
                 <div class="card-body pt-4">
                   <img
                     src="./images/icons/paper-plane.png"
@@ -320,10 +336,10 @@
                     alt="House icon"
                     title="House icon"
                   />
-                  <h6 class="card-title h-font text-uppercase text-light">
+                  <h6 class="card-title h-font text-uppercase text-black-50">
                     Email
                   </h6>
-                  <hr class="my-4 mx-auto w-25" />
+                  <hr class="my-4 mx-auto w-25 text-black-50" />
 
                   <p class="card-text pb-3">
                     <a
@@ -336,18 +352,18 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 text-center">
+              <div class="card h-100 text-center bg-light">
                 <div class="card-body pt-4">
                   <img
-                    src="./images/icons/smartphone.png"
+                    src="./images/icons/phone.png"
                     class="card-img-top mx-auto mt-1 mb-3 pt-1"
-                    alt="House icon"
-                    title="House icon"
+                    alt="Phone icon"
+                    title="Phone icon"
                   />
-                  <h6 class="card-title h-font text-uppercase text-light">
+                  <h6 class="card-title h-font text-uppercase text-black-50">
                     Phone
                   </h6>
-                  <hr class="my-4 mx-auto w-25" />
+                  <hr class="my-4 mx-auto w-25 text-black-50" />
 
                   <p class="card-text p-font text-black-50 pb-3">
                     +1 (555) 902-8832
@@ -359,11 +375,82 @@
         </div>
       </section>
       <!-- ? contact/section-5 end -->
-
-      <!-- ? footer start -->
-      <footer></footer>
-      <!-- ? footer end -->
     </main>
+
+    <!-- ? footer start -->
+    <footer
+      class="
+        bg-secondary
+        text-center text-light
+        pt-container-sm
+        pb-container-sm
+      "
+    >
+      <div class="d-flex justify-content-center mb-5">
+        <a href="https://www.instagram.com/" target="_blank">
+          <svg
+            class="social-icon mx-2"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            viewBox="0 0 551.034 551.034"
+            style="enable-background: new 0 0 551.034 551.034"
+            xml:space="preserve"
+          >
+            <path
+              class="logo"
+              fill="currentColor"
+              d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+            />
+
+            <path
+              fill="currentColor"
+              d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z"
+            />
+
+            <circle fill="currentColor" cx="418.306" cy="134.072" r="34.149" />
+          </svg>
+        </a>
+
+        <a href="https://twitter.com/?lang=en" target="_blank">
+          <svg
+            class="social-icon mx-2"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="twitter"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+            ></path>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <svg
+            class="social-icon"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="facebook-f"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <path
+              fill="currentColor"
+              d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="px-4 px-lg-5 btn-font text-light">
+        Copyright &copy; Peony Langner 2021
+      </div>
+    </footer>
+    <!-- ? footer end -->
     <!-- Custom scripts, edit above this line -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
