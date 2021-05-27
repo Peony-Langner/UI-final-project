@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fc7f813-26ae-4e5f-a12b-7ccaddc1af04/deploy-status)](https://app.netlify.com/sites/peony-ui-final-project/deploys)
+
+
 # DCI Boilerplate I: Sass + bootstrap
 
 An HTML CSS boilerplate with built-in sass support:
