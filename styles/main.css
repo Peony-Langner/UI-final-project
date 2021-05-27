@@ -23,7 +23,6 @@
 
 .p-font {
   font-family: montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-shadow: 0.5px 0.5px 2px #000;
 }
 
 .btn-font {
@@ -88,11 +87,15 @@ header .bg-gradient-1 .bg-img-header {
 }
 @media screen and (min-width: 768px) {
   .section-1 .pb-container-md {
-    padding-bottom: 12.5rem;
+    padding-bottom: 6.25rem;
   }
 }
+.section-1 .p-font,
+.section-1 .h-font {
+  text-shadow: 1px 1px 1px #000;
+}
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .section-2 .border-md {
     border-left: 8px solid #182e37;
     padding: 0 0 0 2rem;
@@ -126,6 +129,18 @@ header .bg-gradient-1 .bg-img-header {
     height: 800px;
     overflow: hidden;
   }
+}
+
+.section-5 img {
+  height: 30px;
+  width: 30px;
+}
+.section-5 .house-icon {
+  height: 50px;
+  width: 50px;
+}
+.section-5 .card {
+  border-bottom: 0.25rem solid #bcc7ce;
 }
 
 /*!
