@@ -33,6 +33,10 @@
   padding-top: 3.125rem;
 }
 
+.pb-container-sm {
+  padding-bottom: 3.125rem;
+}
+
 .pt-container-md {
   padding-top: 6.25rem;
 }
@@ -55,6 +59,10 @@
 
 .bg-gradient-3 {
   background: linear-gradient(to bottom, #182e37, transparent);
+}
+
+.bg-gradient-4 {
+  background: linear-gradient(to bottom, #182e37, #000);
 }
 
 header a {
@@ -136,11 +144,16 @@ header .bg-gradient-1 .bg-img-header {
   width: 30px;
 }
 .section-5 .house-icon {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 .section-5 .card {
   border-bottom: 0.25rem solid #bcc7ce;
+}
+
+footer .social-icon {
+  height: 40px;
+  width: 40px;
 }
 
 /*!
