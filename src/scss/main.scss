@@ -19,12 +19,6 @@ $p-container-lg: 12.5rem;
 
 $letter-spacing: 0.625rem;
 
-$xs: 0;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
 // ? variables end
 
 // ? typography start
@@ -32,21 +26,21 @@ $xxl: 1400px;
   font-family: "roboto";
   src: url(../fonts/roboto/roboto.woff2) format("woff2");
   src: url(../fonts/roboto/roboto.woff) format("woff");
-  src: url(../fonts/roboto/roboto.ttf) format("truetype");
+  src: url(../fonts/roboto/roboto.ttf) format("TrueType");
 }
 
 @font-face {
   font-family: "montserrat";
   src: url(../fonts/montserrat/montserrat.woff2) format("woff2");
   src: url(../fonts/montserrat/montserrat.woff) format("woff");
-  src: url(../fonts/montserrat/montserrat.ttf) format("truetype");
+  src: url(../fonts/montserrat/montserrat.ttf) format("TrueType");
 }
 
 @font-face {
   font-family: "rubik";
   src: url(../fonts/rubik/rubik.woff2) format("woff2");
   src: url(../fonts/rubik/rubik.woff) format("woff");
-  src: url(../fonts/rubik/rubik.ttf) format("truetype");
+  src: url(../fonts/rubik/rubik.ttf) format("TrueType");
 }
 
 .h-font {
@@ -92,6 +86,10 @@ $xxl: 1400px;
   padding-bottom: $p-container-lg;
 }
 
+// ? padding class end
+
+// ? gradients start
+
 .bg-gradient-1 {
   background: $gradient-1;
 }
@@ -103,7 +101,10 @@ $xxl: 1400px;
 .bg-gradient-4 {
   background: $gradient-4;
 }
-// ? padding class end
+
+// ? gradients end
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // ? header start
 header {
@@ -140,14 +141,14 @@ header {
     background-size: cover;
     background-position: center;
 
-    @media screen and (min-width: $md) {
+    @include media-breakpoint-up(md) {
       .pt-container-md {
         padding-top: $p-container-lg;
       }
     }
   }
 
-  @media screen and (min-width: $md) {
+  @include media-breakpoint-up(md) {
     .pb-container-md {
       padding-bottom: $p-container-md;
     }
@@ -160,7 +161,7 @@ header {
 }
 
 .section-2 {
-  @media screen and (min-width: $xl) {
+  @include media-breakpoint-up(xl) {
     .border-md {
       border-left: 8px solid $primary;
       padding: 0 0 0 2rem;
@@ -182,20 +183,20 @@ header {
 }
 
 .section-4 {
-  @media screen and (min-width: $md) {
+  @include media-breakpoint-up(md) {
     .container {
       height: 600px;
       overflow: hidden;
     }
   }
 
-  @media screen and (min-width: $xl) {
+  @include media-breakpoint-up(xl) {
     .container {
       height: 700px;
       overflow: hidden;
     }
   }
-  @media screen and (min-width: $xxl) {
+  @include media-breakpoint-up(xxl) {
     .container {
       height: 800px;
       overflow: hidden;
@@ -231,5 +232,3 @@ footer {
 }
 
 // ? footer end
-
-@import "../../node_modules/bootstrap/scss/bootstrap";
